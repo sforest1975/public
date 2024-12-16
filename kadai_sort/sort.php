@@ -28,10 +28,14 @@
 		$nums = [ 15, 4, 18, 23, 10 ];
 
 		echo '昇順にソートします。<br/>';
-		echo_result(sort_2way($nums, TRUE));
+		foreach (sort_2way($nums, TRUE) as $result) {
+			echo $result . '<br/>';
+		}
 
 		echo '降順にソートします。<br/>';
-		echo_result(sort_2way($nums, FALSE));
+		foreach (sort_2way($nums, FALSE) as $result) {
+			echo $result . '<br/>';
+		}
         ?>
     </p>
 </body>
