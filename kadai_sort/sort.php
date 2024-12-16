@@ -19,12 +19,6 @@
 			return $array;
 		}
 
-		function echo_result(array $array) : void {
-			foreach ($array as $result) {
-				echo $result . '<br/>';
-			}
-		}
-
 		$nums = [ 15, 4, 18, 23, 10 ];
 
 		echo '昇順にソートします。<br/>';
